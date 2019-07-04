@@ -5,7 +5,7 @@ public class TraversalInTree {
 	public static void main(String[] args) {
 
 		
-		Node tree = getMeATree();
+		Node tree = Util.getMeBinaryTree();  //getMeATree();
 		System.out.print(" PreOderTraversal =>");
 		preorderTraversal(tree);//root -> left node -> right node
 		System.out.print(" PostOrderTraversal =>");
