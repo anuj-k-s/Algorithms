@@ -35,7 +35,7 @@ public class Node {
 
 	@Override
 	public String toString() {
-		return "Node [left=" + left + ", right=" + right + ", data=" + data + "]";
+		return "[" + left + ", " + right + ", " + data + "]";
 	}
 	
 	
