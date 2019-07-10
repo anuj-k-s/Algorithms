@@ -1,7 +1,16 @@
 package com.aks.algorithm.codingquestion;
 
 import java.util.Scanner;
+/**
+	Company : Move in Sync
+	Question : 
+	Given a matrix, m rows, n columns and an integer k, filled with x and o, find the count of streaks of x and o. A streak is a group of adjacent k characters where adjacency is horizontal, vertical and diagonal.
+Input Format
+The first line contains and integer t denoting the number of test cases. The second line consists of three space separated integers m, n and k. The next m rows each contain n space separated characters.
 
+Output Format
+For each test case print the count of streaks of x and o space separated.
+*/
 public class TicNToe {
 	/*This problem is to find how many diagonal and  
 	 * straight  'x' and 'o' are present in board with
